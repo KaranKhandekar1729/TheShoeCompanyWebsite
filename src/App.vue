@@ -10,4 +10,10 @@ import Footer from './components/Footer.vue'
 
 <template>
   <Header />
+  <Hero />
+  <HowItWorks />
+  <AboutUs />
+  <Testimonials />
+  <Contact />
+  <Footer />
 </template>

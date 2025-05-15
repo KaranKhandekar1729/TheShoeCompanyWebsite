@@ -1,11 +1,15 @@
+<script setup>
+import aboutUsBackground from '../assets/images/about-us-background.png'
+</script>
+
 <template>
-<section>
-    <h2>About Us!</h2>
-    <div class="bg-[url('.assets/images/about-us-background.png')]">
-        <img src="./assets/images/about-shoe-company.png" alt="">
+<section id="about" class="section-container mt-32 flex flex-col md:flex-row md:space-x-12 scroll-mt-28">
+    <h2 class="text-3xl my-6 text-center font-bold md:hidden">About Us!</h2>
+    <div :style="`background-image:url(${aboutUsBackground})`" class="bg-no-repeat md:w-full self-center">
+        <img src="../assets/images/about-shoe-company.png" alt="">
     </div>
-    <div>
-        <h2>
+    <div class="space-y-8 max-w-xl md:w-full">
+        <h2 class="text-6xl font-bold hidden md:block">
             About Us!
         </h2>
         <p>
